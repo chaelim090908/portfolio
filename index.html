@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="portfolio/js/jquery-3.7.1.min.js"></script>
+    <script src="portfolio/js/common.js"></script>
+    <script src="portfolio/js/main.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="portfolio/css/main.css">
+    <title>신채림 포트폴리오</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="swiper swiperV">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div>1</div>
+                </li>
+                <li class="swiper-slide">
+                    <div>2</div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="swiper swiperH">
+                        <ul class="swiper-wrapper"> 
+                            <li class="swiper-slide">3-1</li>
+                            <li class="swiper-slide">3-2</li>
+                            <li class="swiper-slide">3-3</li>
+                            <li class="swiper-slide">3-4</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>4</div>
+                </li>
+                <li class="swiper-slide">
+                    <div>5</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+animation-name : @keyframes 이름 (예제에서는 fadeOut 을 사용)
+animation-duratuion : 타임 프레임의 길이, 키프레임이 동작하는 시간을 설정할 때 사용
+animation-timing-function : 애니메이션 속도 조절 / 그래프 ( linear / ease / ease-in / ease-out / ease-in-out / cubic-bezier )
+animation-delay : 애니메이션을 시작하기 전 지연시간 설정
+animation-iteration-count : 반복 횟수 지정
+animation-direction : 반복 방향 설정 ( 정방향 / 역방향 / 번갈아가며)
+animation-fill-mode : 애니메이션 시작 / 끝 상태 제어 ( none / forwords / backwords / both )
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+-->
