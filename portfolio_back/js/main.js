@@ -10,6 +10,19 @@ $(document).ready(function(){
 			}
 		},
 	});
+	
+	const swiperh = new Swiper('.SwiperH', { /* 팝업을 감싼는 요소의 class명 */
+		slidesPerView: 1,
+		spaceBetween: 0,
+		mousewheel: true,
+		direction: "horizontal",
+		on: {
+			slideChange: function(){
+				console.log(this.realIndex)
+			}
+		},
+	});
+
 
     // const col_swiper = new Swiper('.swiperV', {
 	// 	direction: "vertical",
@@ -66,26 +79,26 @@ $(document).ready(function(){
 	// 	}
 	// });
 
-    // $('.page a[data-href="portfolio"]').on('click', function(){
-	// 	col_swiper.slideTo(0, 500);
-	// });
-	// $('.page a[data-href="profile"]').on('click', function(){
-	// 	col_swiper.slideTo(1, 500);
-	// });
-	// $('.page a[data-href="first"]').on('click', function(){
-	// 	col_swiper.slideTo(2, 500);
-	// 	row_swiper.slideTo(0, 500);
-	// });
-	// $('.page a[data-href="second"]').on('click', function(){
-	// 	col_swiper.slideTo(2, 500);
-	// 	row_swiper.slideTo(1, 500);
-	// });
-	// $('.page a[data-href="third"]').on('click', function(){
-	// 	col_swiper.slideTo(2, 500);
-	// 	row_swiper.slideTo(2, 500);
-	// });
-	// $('.page a[data-href="end"]').on('click', function(){
-	// 	col_swiper.slideTo(2, 500);
-	// 	row_swiper.slideTo(2, 500);
-	// });
+    $('.page a[data-href="portfolio"]').on('click', function(){
+		swiperv_swiper.slideTo(0, 500);
+	});
+	$('.page a[data-href="profile"]').on('click', function(){
+		swiperv_swiper.slideTo(1, 500);
+	});
+	$('.page a[data-href="first"]').on('click', function(){
+		swiperv_swiper.slideTo(2, 500);
+		row_swiper.slideTo(0, 500);
+	});
+	$('.page a[data-href="second"]').on('click', function(){
+		swiperv_swiper.slideTo(2, 500);
+		row_swiper.slideTo(1, 500);
+	});
+	$('.page a[data-href="third"]').on('click', function(){
+		swiperv_swiper.slideTo(2, 500);
+		row_swiper.slideTo(2, 500);
+	});
+	$('.page a[data-href="end"]').on('click', function(){
+		swiperv_swiper.slideTo(2, 500);
+		row_swiper.slideTo(2, 500);
+	});
 })
