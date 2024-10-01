@@ -2,19 +2,7 @@
 @import url(fonts.css);
 @import url(common.css);
 @import url(layout.css);
-/* .swiper {
-    width: 100%;
-    height: 100%; 
-}
-.swiper-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    transition-property: transform;
-    box-sizing: content-box;
-} */
+
 .sec_fir,
 .sec_sec,
 .sec_thi {
