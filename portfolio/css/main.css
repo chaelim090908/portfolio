@@ -1639,66 +1639,12 @@ section {
     100% {opacity: 100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 }
 
-
-
-
-
-
-
-
-/* animation-name : cir2;
-animation-duration: 5s;
-animation-timing-function : linear;
-animation-iteration-count : infinite;
-animation-direction : normal;
--moz-animation-name: cir2;
--moz-animation-duration: 5s;
--moz-animation-timing-function : linear;
--moz-animation-iteration-count : infinite;
--moz-animation-direction : normal;
--webkit-animation-name: cir2;
--webkit-animation-duration: 5s;
--webkit-animation-timing-function : linear;
--webkit-animation-iteration-count : infinite;
--webkit-animation-direction : normal;
--o-animation-name: cir2;
--o-animation-duration: 5s;
--o-animation-timing-function : linear;
--o-animation-iteration-count : infinite;
--o-animation-direction : normal;
-}
-@keyframes cir2 {
-0% {opacity: 0;}
-25% {opacity: 0.3;}
-75% {opacity: 0.7;}
-100% {opacity: 0;}
-} */
-
-
 .sec_pre {
     font-size: 100px;
     line-height: 100vh;
     align-items: center;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .page {
     position: fixed;
