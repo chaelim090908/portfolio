@@ -703,7 +703,7 @@ section {
     border-radius: 50%;
     content: "";
 }
-@media screen and (max-width:1599px){
+@media screen and (max-width:1599px), (max-height:700px){
     .sec_pro .me {
         width: 359px;
     }
@@ -1033,7 +1033,7 @@ section {
     0% {opacity: 0; transform: translateX(50px);}
     100% {opacity: 100%; transform: translateX(0);}
 }
-@media screen and (max-width:1599px){
+@media screen and (max-width:1599px), (max-height:700px){
     .sec_fir .tit .photo_tit {
         margin-bottom: 16px;
         width: 1000px;
@@ -1048,7 +1048,7 @@ section {
     .sec_fir .right {
         width: 418px;
         font-size: 16px;
-        margin-left: 565px;
+        margin-left: 571px;
     }
     .sec_fir .right .tit h3 {
         font-size: 35px;
@@ -1324,17 +1324,17 @@ section {
     0% {opacity: 0; transform: translateX(50px);}
     100% {opacity: 100%; transform: translateY(0);}
 }
-.sec_sec .mockup a .photo {
+.sec_sec .mockup .photo {
     width: 925px;
     height: 598px;
     overflow: hidden;
 }
-.sec_sec .mockup a .photo img {
+.sec_sec .mockup .photo a img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-@media screen and (max-width:1599px){
+@media screen and (max-width:1599px), (max-height:700px){
     .sec_sec .tit .photo_tit {
         margin-bottom: 16px;
         width: 100%;
@@ -1516,7 +1516,7 @@ section {
 .sec_thi .right .exp p:first-child {
     margin-bottom: 8px;
 }
-@media screen and (max-width:1599px){
+@media screen and (max-width:1599px), (max-height:700px){
     .sec_thi .tit .photo_tit {
         margin-bottom: 16px;
     }
@@ -1530,7 +1530,7 @@ section {
     .sec_thi .right {
         width: 418px;
         font-size: 16px;
-        margin-left: 565px;
+        margin-left: 697px;
     }
     .sec_thi .right .tit h3 {
         font-size: 35px;
@@ -1712,10 +1712,35 @@ section {
     background-color: var(--color-white);
     content: "";
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1351px), (max-height:700px){
     .page {
         right: 74px;
-        bottom: 27%;
+        bottom: 30%;
         z-index: 9999;
+    }
+    .page ul li a {
+        margin-bottom: 30px;
+        padding-right: 30px;
+    }
+    .page ul li a::after {
+        height: 58px;
+    }
+    .page ul li:last-child a::after {
+        display: none;
+    }
+    .page ul li a::before {
+        top: 7px;   
+        width: 9px;
+        height: 9px;
+    }
+    .page ul li a span::after {
+        top: 48%;
+        width: 19px;
+    }
+    .page ul li.active a span::before,
+    .page ul li a:hover span::before {
+        right: 17px;
+        width: 6px;
+        height: 6px;
     }
 }

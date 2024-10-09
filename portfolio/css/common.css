@@ -17,16 +17,12 @@ body {
 
 #wrap {
     min-width: 1352px;
-    /* height: 100%; */
 }
 .wrapper {
     width: 1352px;
     margin: 0 auto;
 }
 @media screen and (max-width:1392px){
-    /* #wrap {
-        min-width: 100%;
-    } */
     .wrapper {
         width: 1000px;
         margin: 0 auto;
